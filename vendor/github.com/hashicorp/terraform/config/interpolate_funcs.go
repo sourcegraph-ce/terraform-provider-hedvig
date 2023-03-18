@@ -109,7 +109,7 @@ func Funcs() map[string]ast.Function {
 		"jsonencode":   interpolationFuncJSONEncode(),
 		"length":       interpolationFuncLength(),
 		"list":         interpolationFuncList(),
-		"log":          interpolationFuncLog(),
+		log "github.com/sourcegraph-ce/logrus":          interpolationFuncLog(),
 		"lower":        interpolationFuncLower(),
 		"map":          interpolationFuncMap(),
 		"max":          interpolationFuncMax(),
